@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Registros de PC</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styles.css">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="bi bi-laptop me-2 text-primary"></i>
+                <span>INFOTEC</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#caracteristicas">Características</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proceso">Proceso</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="inicio">
+        <div class="hero-blob"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="hero-title">Registra el avance de tus Equipos</h1>
+                    <p class="hero-subtitle">Optimiza tus servicios técnicos con nuestra plataforma integral. Seguimiento en tiempo real, diagnósticos precisos y gestión eficiente de recursos.</p>
+                    <div class="d-flex flex-wrap gap-3 hero-buttons">
+                        <a href="views/login_view.php" class="btn btn-primary-custom">Estudiantes</a>
+                        <a href="views/login_view_maestro.php" class="btn btn-outline-custom">Profesores</a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="hero-image-container">
+                        <div class="position-relative d-inline-block floating">
+                            <i class="bi bi-laptop" style="font-size: 300px; color: var(--primary-blue);"></i>
+                            
+                            <!-- Nuevo elemento visual de instalación de software -->
+                            <div class="software-installation">
+                                <!-- PDF (reemplazando AutoCAD) -->
+                                <div class="software-box pdf">
+                                    <i class="bi bi-file-earmark-pdf" style="font-size: 28px; color: #e74c3c;"></i>
+                                </div>
+                                
+                                <!-- Office -->
+                                <div class="software-box office">
+                                    <i class="bi bi-file-earmark-word" style="font-size: 28px; color: #2b579a;"></i>
+                                </div>
+                                
+                                <!-- Windows -->
+                                <div class="software-box windows">
+                                    <i class="bi bi-windows" style="font-size: 28px; color: #0078d7;"></i>
+                                </div>
+                                
+                                <!-- Minitab -->
+                                <div class="software-box minitab">
+                                    <i class="bi bi-bar-chart-fill" style="font-size: 28px; color: #8e44ad;"></i>
+                                </div>
+                                
+                                <!-- Optimize -->
+                                <div class="software-box optimize">
+                                    <i class="bi bi-speedometer" style="font-size: 28px; color: #27ae60;"></i>
+                                </div>
+                                
+                                <!-- Format -->
+                                <div class="software-box format">
+                                    <i class="bi bi-arrow-repeat" style="font-size: 28px; color: #e74c3c;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="caracteristicas">
+        <div class="features-bg"></div>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Características <span>Principales</span></h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Descubre cómo nuestro sistema revoluciona la gestión de mantenimiento informático con herramientas diseñadas para optimizar cada aspecto del proceso.</p>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-clipboard-data feature-icon"></i>
+                        </div>
+                        <h3 class="feature-title">Gestión Integral</h3>
+                        <p class="feature-text">Administra todo el ciclo de vida del mantenimiento desde una sola plataforma intuitiva y completa.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-graph-up feature-icon"></i>
+                        </div>
+                        <h3 class="feature-title">Análisis Avanzado</h3>
+                        <p class="feature-text">Obtén estadísticas detalladas y reportes personalizados para tomar decisiones basadas en datos reales.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-calendar-check feature-icon"></i>
+                        </div>
+                        <h3 class="feature-title">Programación Inteligente</h3>
+                        <p class="feature-text">Automatiza la programación de mantenimientos preventivos y optimiza la asignación de recursos.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-people feature-icon"></i>
+                        </div>
+                        <h3 class="feature-title">Gestión de Clientes</h3>
+                        <p class="feature-text">Mantén un registro detallado de clientes, sus equipos y preferencias para ofrecer un servicio personalizado.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-bell feature-icon"></i>
+                        </div>
+                        <h3 class="feature-title">Notificaciones en Tiempo Real</h3>
+                        <p class="feature-text">Recibe alertas instantáneas sobre el estado de los servicios y mantén informados a tus clientes.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <i class="bi bi-shield-check feature-icon"></i>
+                        </div>
+                        <h3 class="feature-title">Seguridad Garantizada</h3>
+                        <p class="feature-text">Protege la información de tus clientes y tu negocio con nuestro sistema de seguridad avanzado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section" id="proceso">
+        <div class="process-bg"></div>
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Cómo <span>Funciona</span></h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Nuestro sistema simplifica el proceso de gestión de mantenimiento en solo unos pocos pasos intuitivos.</p>
+            
+            <div class="process-container">
+                <div class="process-line d-none d-lg-block"></div>
+                <div class="row">
+                    <div class="col-lg-3 process-step" data-aos="fade-up" data-aos-duration="800">
+                        <div class="process-icon-wrapper">
+                            <i class="bi bi-person-plus process-icon"></i>
+                            <div class="process-number">1</div>
+                        </div>
+                        <h4 class="process-title">Regístrate</h4>
+                        <p class="process-text">Crea tu cuenta en minutos y configura tu perfil empresarial.</p>
+                    </div>
+                    
+                    <div class="col-lg-3 process-step" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                        <div class="process-icon-wrapper">
+                            <i class="bi bi-laptop process-icon"></i>
+                            <div class="process-number">2</div>
+                        </div>
+                        <h4 class="process-title">Registra Equipos</h4>
+                        <p class="process-text">Añade los equipos de tus clientes con todos sus detalles técnicos.</p>
+                    </div>
+                    
+                    <div class="col-lg-3 process-step" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                        <div class="process-icon-wrapper">
+                            <i class="bi bi-tools process-icon"></i>
+                            <div class="process-number">3</div>
+                        </div>
+                        <h4 class="process-title">Gestiona Servicios</h4>
+                        <p class="process-text">Administra solicitudes, asigna técnicos y realiza seguimiento en tiempo real.</p>
+                    </div>
+                    
+                    <div class="col-lg-3 process-step" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+                        <div class="process-icon-wrapper">
+                            <i class="bi bi-graph-up process-icon"></i>
+                            <div class="process-number">4</div>
+                        </div>
+                        <h4 class="process-title">Analiza Resultados</h4>
+                        <p class="process-text">Obtén estadísticas detalladas y optimiza tu servicio técnico.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-shape"></div>
+        <div class="cta-shape-2"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="cta-title">¿Listo para revolucionar tu servicio técnico?</h2>
+                    <p class="cta-text">Únete a miles de empresas que ya optimizaron su gestión de mantenimiento. Ofrecemos una prueba gratuita de 30 días sin compromiso.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end" data-aos="fade-left" data-aos-duration="1000">
+                    <a href="views/login_view.php" class="btn btn-light-custom btn-lg">Comenzar Ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Inicializar AOS
+        AOS.init();
+        
+        // Cambiar estilo del navbar al hacer scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('mainNav');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
